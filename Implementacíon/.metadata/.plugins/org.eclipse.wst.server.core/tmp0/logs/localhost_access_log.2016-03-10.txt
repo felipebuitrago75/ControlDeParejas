@@ -21,3 +21,4 @@
 127.0.0.1 - - [10/Mar/2016:03:06:21 -0500] "GET /jenkins/ HTTP/1.1" 404 1020
 127.0.0.1 - - [10/Mar/2016:03:13:05 -0500] "GET /jenkins/administrativeMonitor/hudson.diagnosis.ReverseProxySetupMonitor/testForReverseProxySetup/http%3A%2F%2F127.0.0.1%3A9080%2Fjenkins%2Fmanage/ HTTP/1.1" 400 -
 127.0.0.1 - - [10/Mar/2016:03:13:56 -0500] "POST /jenkins/github-webhook/ HTTP/1.1" 404 1050
+127.0.0.1 - - [10/Mar/2016:03:31:35 -0500] "GET /jenkins/administrativeMonitor/hudson.diagnosis.ReverseProxySetupMonitor/testForReverseProxySetup/http%3A%2F%2F127.0.0.1%3A9080%2Fjenkins%2Fmanage/ HTTP/1.1" 400 -
