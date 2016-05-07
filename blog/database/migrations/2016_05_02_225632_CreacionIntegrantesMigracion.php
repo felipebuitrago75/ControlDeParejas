@@ -41,6 +41,8 @@ class CreacionIntegrantesMigracion extends Migration
             $table->integer('genero');
             $table->integer('idPareja');
             $table->string('fotoPersona');
+            $table->integer('pareja_id')->unsigned();
+            $table->foreign('pareja_id')->references('id')->on('pareja');
             $table->timestamps();
         });
     }

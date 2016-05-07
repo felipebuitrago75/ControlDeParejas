@@ -11,11 +11,7 @@
 |
 */
 
-Route::get ('prueba',function(){
-	return "hola mundo";
-});
-route::resource('pareja','ParejaController');
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get ('/','FrontController@index');
+Route::get ('index','FrontController@index');
+Route::get ('registro','FrontController@registro');
+Route::get ('entrevista','FrontController@entrevista');
