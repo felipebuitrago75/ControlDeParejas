@@ -15,3 +15,5 @@ Route::get ('/','FrontController@index');
 Route::get ('index','FrontController@index');
 Route::get ('registro','FrontController@registro');
 Route::get ('entrevista','FrontController@entrevista');
+Route::get ('contacto','FrontController@contacto');
+Route::get ('nosotros','FrontController@nosotros');

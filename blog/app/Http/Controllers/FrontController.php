@@ -36,4 +36,24 @@ class FrontController extends Controller
 
     	
     }
+         /**
+    *
+    *
+    *@return respuesta
+    */
+    public function contacto(){
+        return view('contacto');
+
+        
+    }
+          /**
+    *
+    *
+    *@return respuesta
+    */
+    public function nosotros(){
+        return view('nosotros');
+
+        
+    }
 }
