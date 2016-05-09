@@ -1,6 +1,8 @@
 <?php
+
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+
 class CreacionUsuariosMigracion extends Migration
 {
     /**
@@ -17,6 +19,7 @@ class CreacionUsuariosMigracion extends Migration
             $table->timestamps();
         });
     }
+
     /**
      * Reverse the migrations.
      *
