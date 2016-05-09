@@ -1,7 +1,9 @@
 <?php
+
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-class CreacionUsuariosMigracion extends Migration
+
+class CreacionLogin extends Migration
 {
     /**
      * Run the migrations.
@@ -10,13 +12,10 @@ class CreacionUsuariosMigracion extends Migration
      */
     public function up()
     {
-        Schema::create('usuario', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('usuario');
-            $table->string('contraseña');
-            $table->timestamps();
-        });
+        //
+        
     }
+
     /**
      * Reverse the migrations.
      *
@@ -24,6 +23,6 @@ class CreacionUsuariosMigracion extends Migration
      */
     public function down()
     {
-        Schema::drop('usuario');
+        //
     }
 }
