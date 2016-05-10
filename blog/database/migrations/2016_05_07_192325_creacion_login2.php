@@ -13,7 +13,7 @@ class CreacionLogin2 extends Migration
     public function up()
     {
         //
-                Schema::create('users', function (Blueprint $table) {
+         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre');
             $table->string('usuario');

@@ -17,6 +17,8 @@ Route::get ('registro','FrontController@registro');
 Route::get ('entrevista','FrontController@entrevista');
 Route::get ('contacto','FrontController@contacto');
 Route::get ('nosotros','FrontController@nosotros');
+Route::get('/home', 'HomeController@index');
 Route::auth();
-
+Route::get('/home', 'HomeController@index');
+Route::auth();
 Route::get('/home', 'HomeController@index');

@@ -24,6 +24,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<!-- header-section-starts -->
+	 <ul class="nav navbar-nav navbar-right">
+                    <!-- Authentication Links -->
+                    @if (Auth::guest())
+                        <li><a href="{{ url('/login') }}">Ingresar</a></li>
+                        <li><a href="{{ url('/register') }}">Solicitar registro</a></li>
+                    @else
+                       
+                          <li><a>{{ Auth::user()->name }}</a></li>
+
+                            
+                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Cerrar Sesion </a></li>
+                          
+                        </li>
+                    @endif
+                </ul>
 	<div class="full">
 			<div class="menu">
 				<ul>
